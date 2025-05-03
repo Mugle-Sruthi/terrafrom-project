@@ -107,7 +107,7 @@ This project uses Terraform to:
 
 ### Diagram
 
-```mermaid
+```
 graph TD
     A[Terraform Config] --> B[AWS Provider]
     B --> C[Default VPC]
