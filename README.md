@@ -226,13 +226,14 @@ Error: UnauthorizedOperation	Check IAM permissions for EC2/VPC
 Error: InsufficientInstanceCapacity	Try different AZ or instance type
 Debug Commands
 bash
-# Refresh state
+
+-Refresh state
 terraform refresh
 
-# Show current state
+-Show current state
 terraform show
 
-# Validate configuration
+- Validate configuration
 terraform validate
 
 
